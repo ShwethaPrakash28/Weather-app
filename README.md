@@ -1,54 +1,57 @@
-# React + TypeScript + Vite
+🌦️ Klimate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi there! 👋  
+Welcome to **Klimate** — a sleek, modern weather app built using **React**, **TypeScript**, **Tailwind CSS**, **shadcn/ui**, **Recharts**, and **TanStack Query**.
 
-Currently, two official plugins are available:
+**Klimate** was created with a simple goal: to make weather forecasting beautiful, fast, and effortless. Whether you're stepping out for a walk or planning a trip, Klimate gives you clear, real-time weather insights in a clean and intuitive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🔍 What Klimate Offers
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Live weather updates with temperature, humidity, pressure, and wind info  
+- Sunrise and sunset times tailored to your location  
+- 5-day forecast with daily conditions at a glance  
+- Hourly temperature trends shown in an interactive chart  
+- Smart city search with suggestions and recent history  
+- Lightning-fast data fetching powered by TanStack Query  
+- A responsive, dark-themed UI designed with shadcn/ui and Tailwind
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Everything is crafted to feel smooth, minimal, and helpful — so checking the weather becomes a quick and delightful experience.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+ 📊 Powered by Smart Tools
+
+Klimate uses:
+- **Recharts** to visualize temperature changes throughout the day  
+- **TanStack Query v5** for real-time data fetching and caching  
+- **Open-Meteo API** for accurate and reliable weather data  
+- And a modern UI stack that keeps things elegant and responsive
+
+
+
+ 🚀 Run Klimate Locally
+
+Want to explore or contribute? Here’s how to get started:
+
+bash
+git clone https://github.com/your-username/klimate.git
+cd klimate
+npm install
+npm run dev
+Then open http://localhost:5173 in your browser.
+
+
+
+🛠 Tech Stack
+React + TypeScript
+
+Tailwind CSS
+
+shadcn/ui
+
+TanStack Query
+
+Recharts
+
+Open-Meteo API
