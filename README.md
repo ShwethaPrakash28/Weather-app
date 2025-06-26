@@ -30,19 +30,6 @@ Klimate uses:
 
 
 
- 🚀 Run Klimate Locally
-
-Want to explore or contribute? Here’s how to get started:
-
-bash
-git clone https://github.com/your-username/klimate.git
-cd klimate
-npm install
-npm run dev
-Then open http://localhost:5173 in your browser.
-
-
-
 🛠 Tech Stack
 React + TypeScript
 
